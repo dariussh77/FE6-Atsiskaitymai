@@ -27,3 +27,22 @@
   margin-top: 50px;
   color: #333;
 }
+#output{
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-around;
+}
+#output>div{
+  width: 200px;
+}
+#output>div>ul{
+  list-style:inside;
+  font-weight: 700;
+}
+#output>div>ul>li{
+
+  font-weight: 400;
+}

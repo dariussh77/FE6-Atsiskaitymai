@@ -19,3 +19,25 @@ const users = [
   { id: '8', name: 'Simon Peterson', age: 30 },
   { id: '9', name: 'Daniel Cane', age: 51 },
 ];
+
+//Average Age
+
+function aveAge(duomuo){
+  let i=0;
+  let tarpinis=0;
+  duomuo.forEach(e=>{
+    i++
+    tarpinis=e.age+tarpinis;
+  });
+  console.log(tarpinis,i);
+  return tarpinis/i;
+};
+console.log('Amžiaus vidurkis:',aveAge(users));
+
+//Išveda tik Name
+function names(duomuo){
+  let newArray=[];
+  duomuo.map(e=>newArray.push(e.name));
+  return newArray;
+};
+console.log('Tik vardų masyvas:',names(users));

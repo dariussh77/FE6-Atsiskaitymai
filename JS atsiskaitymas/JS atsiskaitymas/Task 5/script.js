@@ -19,3 +19,16 @@ const users = [
   { id: '8', name: 'Simon Peterson', age: 30, hasDog: false },
   { id: '9', name: 'Daniel Cane', age: 51, hasDog: true },
 ];
+
+// Has Dog
+function dogOwner(duomuo){
+  let dogOwn=duomuo.filter(e=>e.hasDog===true);
+  return dogOwn;
+};
+console.log('Turi šunį:',dogOwner(users));
+
+//Is adult
+function adult(duomuo){
+  return duomuo.filter(e=>e.age>=18);
+};
+console.log('Pilnametis:',adult(users));

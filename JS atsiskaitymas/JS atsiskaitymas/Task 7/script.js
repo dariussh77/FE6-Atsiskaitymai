@@ -10,3 +10,8 @@ const audi = {
   year: 2005,
   color: 'white'
 };
+
+function keys(duomuo){
+  return Object.keys(audi);
+};
+console.log('Objekto raktai:',keys(audi));

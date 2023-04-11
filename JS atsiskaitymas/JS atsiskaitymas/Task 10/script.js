@@ -1,3 +1,7 @@
+import composition from "./modules/math/composition.js";
+import division from "./modules/math/division.js";
+import multiplication from "./modules/math/multiplication.js";
+import substraction from "./modules/math/subtraction.js";
 /* ------------------------------ TASK 10 ---------------------------------------------------
 Naudodami modulius sutvarkykite užduoties "Task 10" esančius failus taip, kad veiktų žemiau pateiktos funkcijos.
 -------------------------------------------------------------------------------------------- */
